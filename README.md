@@ -1,17 +1,19 @@
-# 👷 `worker-template` Hello World
+# 👷 Cloudflare Full-Stack Internship
 
-A template for kick starting a Cloudflare worker project.
+Complete code for the Cloudflare Full-Stack internship challenge. Can be found at: https://github.com/cloudflare-internship-2020/internship-application-fullstack
 
 [`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
 
-#### Wrangler
+#### Test
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+To test using [wrangler](https://github.com/cloudflare/wrangler)
 
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
+wrangler dev
 ```
 
-#### Serverless
+#### Deploy
 
-To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
+```
+wrangler publish
+```
